@@ -4,9 +4,9 @@ import Card from '../components/Card';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import img1 from '../components/Images/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg';
-import img2 from '../components/Images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg';
-import img3 from '../components/Images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg';
-import img4 from '../components/Images/shreyak-singh-0j4bisyPo3M-unsplash.jpg';
+import img2 from '../components/Images/food1.jpeg';
+import img3 from '../components/Images/food2.jpeg';
+import img4 from '../components/Images/food2.jpeg';
 
 export default function Home() {
   const [foodCat, setFoodCat] = useState([]);
@@ -52,16 +52,16 @@ export default function Home() {
             </div>
           </div>
           <div className="carousel-item active">
-            <img src={img1} className="d-block w-100" style={{ filter: "brightness(40%)" }} alt="..." />
+            <img src={img1} className="d-block w-100" style={{height:"500px",width:"700px", filter: "brightness(40%)" }} alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={img2} className="d-block w-100" style={{ filter: "brightness(40%)" }} alt="..." />
+            <img src={img2} className="d-block w-100" style={{ height:"500px",width:"700px",filter: "brightness(40%)" }} alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={img3} className="d-block w-100" style={{ filter: "brightness(40%)" }} alt="..." />
+            <img src={img3} className="d-block w-100" style={{height:"500px",width:"700px", filter: "brightness(40%)" }} alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={img4} className="d-block w-100" style={{ filter: "brightness(40%)" }} alt="..." />
+            <img src={img4} className="d-block w-100" style={{ height:"500px",width:"700px",filter: "brightness(40%)" }} alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
